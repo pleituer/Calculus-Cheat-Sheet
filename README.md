@@ -127,7 +127,7 @@ $u = \frac{3}{2\cos{x}} - \frac{3x + C}{2\sin{x}}$
 
 $y = \sqrt[3]{u^2}$
 
-$y = \sqrt[3]{\frac{3}{2\cos{x}} - \frac{3x + C}{2\sin{x}}}$
+$y = \sqrt[3]{(\frac{3}{2\cos{x}} - \frac{3x + C}{2\sin{x}})^2}$
 
 
 
