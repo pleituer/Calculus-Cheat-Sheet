@@ -25,6 +25,22 @@
 
 ## 3. Integration
 
+### Types
+
+Indefinite: $\int_{}{}f(x)dx$
+
+Definite: $\int_{a}^{b}f(x)dx$
+
+### Technique 1: Direct
+
+### Technique 2: Reverse Chain Rule (u-sub)
+
+### Technique 3: Integration by Parts (by parts)
+
+### Advanced Techniques
+
+#### Dummy Variables
+
 ## 4. Differential Equations
 
 ### 4.1 Seperable
