@@ -7,6 +7,10 @@
 
 3. [Integration](https://github.com/pleituer/Calculus-Cheat-Sheet/edit/main/README.md#3-integration)
 
+    3.1 [Types](https://github.com/pleituer/Calculus-Cheat-Sheet/edit/main/README.md#types)
+    
+    3.2 [Techniques](https://github.com/pleituer/Calculus-Cheat-Sheet/edit/main/README.md#32-techniques)
+
 4. [Differential equations:](https://github.com/pleituer/Calculus-Cheat-Sheet/edit/main/README.md#4-differential-equations)
 
     4.1 [Seperable](https://github.com/pleituer/Calculus-Cheat-Sheet/edit/main/README.md#41-seperable)
@@ -25,21 +29,23 @@
 
 ## 3. Integration
 
-### Types
+### 3.1 Types
 
 Indefinite: $\int_{}{}f(x)dx$
 
 Definite: $\int_{a}^{b}f(x)dx$
 
-### Technique 1: Direct
+### 3.2 Techniques
 
-### Technique 2: Reverse Chain Rule (u-sub)
+### 3.2.1 Direct
 
-### Technique 3: Integration by Parts (by parts)
+#### 3.2.2 Reverse Chain Rule (u-sub)
 
-### Advanced Techniques
+#### 3.2.3 Technique 3: Integration by Parts (by parts)
 
-#### Dummy Variables
+### 3.3 Advanced Techniques
+
+#### 3.3.1 Dummy Variables
 
 ## 4. Differential Equations
 
