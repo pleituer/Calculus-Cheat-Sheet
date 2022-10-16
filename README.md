@@ -39,6 +39,16 @@ Definite: $\int_{a}^{b}f(x)dx$
 
 ### 3.2.1 Direct
 
+Here are some of the ones that can be intergrated directly
+
+|Function|Antideritative|
+|-|-|
+|$x^n$|$\frac{x^{n+1}}{n+1}$|
+|$e^x$|$e^x$|
+|$\sin{x}$|$-\cos{x}$|
+|$\cos{x}$|$\sin{x}$|
+|$$|$$|
+
 #### 3.2.2 Reverse Chain Rule (u-sub)
 
 #### 3.2.3 Technique 3: Integration by Parts (by parts)
