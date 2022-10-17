@@ -80,7 +80,7 @@ $\text{Integrate both sides: } \int_{}{}y^{-2}dy = \int_{}{}\sec^2{x}dx$
 
 $-y^{-1} = \tan{x} + C$
 
-$y = -\frac{1}{\tan{x} + C}$
+|$y = -\frac{1}{\tan{x} + C}$|
 
 ### 4.2 First Order ODE
 It looks as follows:
@@ -111,7 +111,7 @@ $\int_{}{}d(xy) = \int_{}{}x^2dx$
 
 $xy = \frac{x^3}{3} + C$
 
-$\text{Thus, } y = \frac{x^2}{3} + \frac{C}{x}$
+|$\text{Thus, } y = \frac{x^2}{3} + \frac{C}{x}$|
 
 ### 4.3 Bernoulli's equation
 
@@ -159,7 +159,7 @@ $u = \frac{3}{2\cos{x}} - \frac{3x + C}{2\sin{x}}$
 
 $y = \sqrt[3]{u^2}$
 
-$y = \sqrt[3]{(\frac{3}{2\cos{x}} - \frac{3x + C}{2\sin{x}})^2}$
+|$y = \sqrt[3]{(\frac{3}{2\cos{x}} - \frac{3x + C}{2\sin{x}})^2}$|
 
 
 
