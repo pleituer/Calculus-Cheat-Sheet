@@ -27,6 +27,10 @@
 
 ## 1. Limits
 
+### 1.1.1 Limit of Function
+
+### 1.1.2 Limit Laws
+
 ## 2. Deritatives
 
 ## 3. Integration
