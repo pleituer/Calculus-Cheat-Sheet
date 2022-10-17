@@ -250,6 +250,15 @@ $\text{The solution for this equation is: }$
 |$x\cos{y} + \frac{y^3}{3} = C$|
 |-|
 
+### 4.6 Second order ODE with constant coefficients
+
+First, We need to understand about **Linear Independence**
+
+Linear Independence means that 2 functions, $f(x)$ and $g(x)$ are **NOT** linearly related, that is you cannot find a value $k$ such that $f(x) = kg(x)$, so $\sin{x}$ and $4\sin{x}$ are linearly **Dependent**, while $\sin{x}$ and $\sin{4x}$ are linearly **Independent**
+
+Now we introduce the concept of Workstrain, $uv'-vu'$, if it is **generally** nonzero $\to$ $u$ and $v$ are linearly independent
+
+
 
 
 
