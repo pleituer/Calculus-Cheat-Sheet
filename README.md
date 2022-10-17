@@ -1,4 +1,4 @@
-# Calculus-Cheat-Sheet
+# Calculus-Cheat-Sheet (Unfinished)
 ## Table of contents
 
 1. [Limits](https://github.com/pleituer/Calculus-Cheat-Sheet/blob/main/README.md#1-limits)
@@ -32,10 +32,6 @@
 ## 3. Integration
 
 ### 3.1 Basics
-
-Indefinite: $\int_{}{}f(x)dx$
-
-Definite: $\int_{a}^{b}f(x)dx$
 
 ### 3.2 Techniques
 
