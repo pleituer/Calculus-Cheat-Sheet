@@ -19,7 +19,7 @@
     
     4.3 [Bernoulli's Equation](https://github.com/pleituer/Calculus-Cheat-Sheet/blob/main/README.md#43-bernoullis-equation)
 
-    4.4 [Homogeneous Equations] (https://github.com/pleituer/Calculus-Cheat-Sheet/blob/main/README.md#44-homogeneous-equations)
+    4.4 [Homogeneous Equations](https://github.com/pleituer/Calculus-Cheat-Sheet/blob/main/README.md#44-homogeneous-equations)
 
 
 
