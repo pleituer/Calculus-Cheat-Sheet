@@ -125,11 +125,11 @@ To solve it, we can just do u-sub, $u = y^{1-n} \to du = (1-n)y^{-n}dy \to dy = 
 
 Step 2:
 
-If we subsitute it to the original equation, it will become $\frac{y^n}{1-n}\frac{du}{dx} + p(x)y = q(x)y^n \to \frac{du}{dx} + p(x) * (1-n)y^{1-n} = (1-n)q(x)$.
+If we subsitute it to the original equation, it will become $\frac{y^n}{1-n}\frac{du}{dx} + p(x)y = q(x)y^n \to \frac{du}{dx} + (1-n)p(x)*y^{1-n} = (1-n)q(x)$.
 
 Step 3:
 
-Note that $(1-n)y^{1-n}$ is equivalent to $u$, so the equation becomes $\frac{du}{dx} + p(x)u = (1-n)q(x)$.
+Note that $y^{1-n}$ is equivalent to $u$, so the equation becomes $\frac{du}{dx} + (1-n)p(x)u = (1-n)q(x)$.
 
 Finally
 
