@@ -1,23 +1,23 @@
 # Calculus-Cheat-Sheet
 ## Table of contents
 
-1. [Limits](https://github.com/pleituer/Calculus-Cheat-Sheet/edit/main/README.md#1-limits)
+1. [Limits](https://github.com/pleituer/Calculus-Cheat-Sheet/blob/main/README.md#1-limits)
 
-2. [Deritatives](https://github.com/pleituer/Calculus-Cheat-Sheet/edit/main/README.md#2-deritatives)
+2. [Deritatives](https://github.com/pleituer/Calculus-Cheat-Sheet/blob/main/README.md#2-deritatives)
 
-3. [Integration](https://github.com/pleituer/Calculus-Cheat-Sheet/edit/main/README.md#3-integration)
+3. [Integration](https://github.com/pleituer/Calculus-Cheat-Sheet/blob/main/README.md#3-integration)
 
-    3.1 [Types](https://github.com/pleituer/Calculus-Cheat-Sheet/edit/main/README.md#types)
+    3.1 [Types](https://github.com/pleituer/Calculus-Cheat-Sheet/blob/main/README.md#types)
     
-    3.2 [Techniques](https://github.com/pleituer/Calculus-Cheat-Sheet/edit/main/README.md#32-techniques)
+    3.2 [Techniques](https://github.com/pleituer/Calculus-Cheat-Sheet/blob/main/README.md#32-techniques)
 
-4. [Differential equations:](https://github.com/pleituer/Calculus-Cheat-Sheet/edit/main/README.md#4-differential-equations)
+4. [Differential equations:](https://github.com/pleituer/Calculus-Cheat-Sheet/blob/main/README.md#4-differential-equations)
 
-    4.1 [Seperable](https://github.com/pleituer/Calculus-Cheat-Sheet/edit/main/README.md#41-seperable)
+    4.1 [Seperable](https://github.com/pleituer/Calculus-Cheat-Sheet/blob/main/README.md#41-seperable)
     
-    4.2 [First order ODE](https://github.com/pleituer/Calculus-Cheat-Sheet/edit/main/README.md#42-first-order-ode)
+    4.2 [First order ODE](https://github.com/pleituer/Calculus-Cheat-Sheet/blob/main/README.md#42-first-order-ode)
     
-    4.3 [Bernoulli's Equation](https://github.com/pleituer/Calculus-Cheat-Sheet/edit/main/README.md#43-bernoullis-equation)
+    4.3 [Bernoulli's Equation](https://github.com/pleituer/Calculus-Cheat-Sheet/blob/main/README.md#43-bernoullis-equation)
 
 
 
