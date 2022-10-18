@@ -2,9 +2,9 @@
 
 Table of contents
 
-1. Advanced Integration Techniques
+1. [Advanced Integration Techniques](https://github.com/pleituer/Calculus-Cheat-Sheet/blob/main/Advanced.md#advanced-integration-techniques)
 
-2. Advanced Differential Equations
+2. [Advanced Differential Equations](https://github.com/pleituer/Calculus-Cheat-Sheet/blob/main/Advanced.md#advanced-differential-equations)
 
 ## Advanced Integration Techniques
 
