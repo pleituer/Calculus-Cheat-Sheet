@@ -21,6 +21,7 @@
 
     4.4 [Homogeneous Equations](https://github.com/pleituer/Calculus-Cheat-Sheet/blob/main/README.md#44-homogeneous-equations)
 
+For more advanced things, check out [this link](https://github.com/pleituer/Calculus-Cheat-Sheet/blob/main/Advanced.md)
 
 
 
@@ -61,12 +62,6 @@ Here are some of the ones that can be intergrated directly
 #### 3.2.2 Reverse Chain Rule (u-sub)
 
 #### 3.2.3 Integration by Parts (by parts)
-
-### 3.3 Advanced Techniques
-
-#### 3.3.1 Dummy Variables
-
-#### 3.3.2 Partial Fractions
 
 ## 4. Differential Equations
 
