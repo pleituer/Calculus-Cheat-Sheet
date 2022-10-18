@@ -37,3 +37,12 @@ Case 2:
 $\lambda_1$ and $\lambda_2$ are complex and different:
 
 Same thing, we can do $u = C_1e^{\lambda_1 x} + C_2e^{\lambda_2 x}$. But since both $\lambda$ are complex, we can let $\lambda_1 = a + bi \to \lambda_2 = a - bi$. Thus, using $e^{ix} = \cos{x} + i\sin{x}$, we get $u = C_1e^{ax}(\cos{bx}+i\sin{bx}) + C_2e^{ax}(\cos{bx}-i\sin{bx}) = e^{ax}((C_1+C_2)\cos{bx}+(C_1-C_2)i\sin{bx}) = e^{ax}(A\cos{bx} + B\sin{bx})$, where $A = C_1+C_2$ and $B = (C_1-C_2)i$ 
+
+Note that both of these contants are complex, since we introducted the concept of complex numbers, $A, B, C_1, C_2$ are complex numbers
+
+Case 3:
+$\lambda_1$ and $\lambda_2$ are the same
+
+Since $\lambda_1 = \lambda_2$, we can easily derive that they are $-\frac{b}{2}$we can use the method of reduction, just like in polynomials. If $y = y_1 = C_1e^{-\frac{bx}{2a}}$ is a solution to the equation $D(y) = 0$, then we can find the other solution like so:
+
+$\text{Let } u \text{ be the other solution, since } y_1 \text{ is a solution, then by the method of reduction, } y_2 = y_1u \to y_2' = y_1'u + y_1u' \to y_2'' = y_1''u + 2y_1'u' + y_1u'' \to (y_1''u + 2y_1'u' +y_1u'') + \frac{b}{a}(y_1'u + u'y_1) + \frac{c}{a}(y_1u) = y_1u'' + u'(2y_1'+\frac{b}{a}y_1) + u(y_1''+\frac{b}{a}y_1'+\frac{c}{a}y_1) = u''= 0 \to u = C_2x \to y_2 = C_2xe^{-\frac{bx}{2a}} \to y = C_1e^{-\frac{bx}{2a}} + C_2xe^{-\frac{bx}{2a}}$ 
