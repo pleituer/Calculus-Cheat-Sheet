@@ -20,7 +20,11 @@ Now we introduce the concept of Wronskain, $W(f_1,f_2,...f_n)(x) = \left| \matri
 
 Since if $f_1$, $f_2$,..., $f_n$ are linearly dependent, then $W = f \left| \matrix{i_1 & i_2 & \cdots &i_n \cr i_1\alpha & i_2\alpha & \cdots & i_n\alpha \cr \vdots & \vdots & \ddots & \vdots \cr i_1\alpha ^{n-1} & i_2\alpha ^{n-1} & \cdots & i_n\alpha ^{n-1}}\right|$ Where $f = \frac{f_1}{i_1} = \frac{f_2}{i_2} = \cdots = \frac{f_n}{i_n}$ for some number $i$ and $f' = \alpha f$ for some function $\alpha$
 
-To solve this, we employ 2 facts:
+Thus, $W = f\times\Sigma_{k=1}^{\frac{n(n-1)}{2}}(-1)^k\alpha ^{\frac{n(n-1)}{2}}i_1i_2\cdots i_n$
+
+Since $\frac{n(n-1)}{2}$ has to be an even number, we get $W = f\alpha ^{\frac{n(n-1)}{2}}i_1i_2\cdots i_n\times\Sigma_{k=1}^{\frac{n(n-1)}{2}}(-1)^k = f\alpha ^{\frac{n(n-1)}{2}}i_1i_2\cdots i_n\times 0 = 0$
+
+Now, to solve the differential equation, we employ 2 facts:
 
 1. $\frac{d}{dx}e^{ax} = ae^{ax}$
 
