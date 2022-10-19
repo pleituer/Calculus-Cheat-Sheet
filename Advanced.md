@@ -18,11 +18,11 @@ Linear Independence means that 2 functions, $f(x)$ and $g(x)$ are **NOT** linear
 
 Now we introduce the concept of Wronskain, $W(f_1,f_2,...f_n)(x) = \left| \matrix{f_1 & f_2 & \cdots & f_n \cr f_1' & f_2' & \cdots & f_n' \cr \vdots & \vdots & \ddots & \vdots \cr f_1^{(n-1)} & f_2^{(n-1)} & \cdots & f_n^{(n-1)}}\right|$, if $W$ is **generally** nonzero then $f_1$, $f_2$ ,..., $f_n$ are linearly independent
 
-Since if $f_1$, $f_2$,..., $f_n$ are linearly dependent, then $W = f \left| \matrix{i_1 & i_2 & \cdots &i_n \cr i_1\alpha & i_2\alpha & \cdots & i_n\alpha \cr \vdots & \vdots & \ddots & \vdots \cr i_1\alpha ^{n-1} & i_2\alpha ^{n-1} & \cdots & i_n\alpha ^{n-1}}\right|$ Where $f = \frac{f_1}{i_1} = \frac{f_2}{i_2} = \cdots = \frac{f_n}{i_n}$ for some number $i$ and $f' = \alpha f$ for some function $\alpha$
+Since if $f_1$, $f_2$,..., $f_n$ are linearly dependent, then $W = \left| \matrix{v & i_1v & \cdots & i_{n-1}v} \right|$ Where $v = \left( \matrix{ f_1 \cr f_1' \cr \vdots \cr f_1^{(n-1)}} \right)$ 
 
-Thus, $W = f(i_1i_2\cdots i_n \times \alpha ^{\frac{n(n-1)}{2}} - i_1i_2\cdots i_n \times \alpha ^{\frac{n(n-1)}{2}} + i_1i_2\cdots i_n \times \alpha ^{\frac{n(n-1)}{2}} -\cdots -i_1i_2\cdots i_n \times \alpha ^{\frac{n(n-1)}{2}})$, where there are $\frac{n(n-1)}{2}$ terms.
+Using the [properties of the determinant](https://en.wikipedia.org/wiki/Determinant#Properties_of_the_determinant), we can get $W = i_1 \left| \matrix{i_1v & i_1v & \cdots & i_{n-1}v} \right| \implies W = i_1 \times 0 = 0$
 
-Since $\frac{n(n-1)}{2}$ has to be an even number, we get $W = f\alpha ^{\frac{n(n-1)}{2}}i_1i_2\cdots i_n\times 0 = 0$
+So, $f_1$, $f_2$,..., $f_n$ are linearly dependent $\Longleftrightarrow W = 0$ 
 
 Now, to solve the differential equation, we employ 2 facts:
 
