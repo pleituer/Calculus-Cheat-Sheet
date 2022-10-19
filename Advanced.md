@@ -58,7 +58,7 @@ We only found solutions to $D(y) = 0$, but we want to find $D(y) = f(x)$, to do 
 Case 1:
 $f(x) = p(x)$ where $p(x)$ is a polynomial with degree $i$ (Fun fact: there will be multiple solutions if $i>n$ where n is the degree of the linear ode)
 
-We let $p_i(x) = \Sigma_ia_ix^i$, now solve for each $a_i$ ($p_i$ is the particular integral)
+We let $p_i(x) = \Sigma_ia_ix^i$, now solve for each $a_i$ ( $p_i$ is the particular integral)
 
 $\text{}$
 
