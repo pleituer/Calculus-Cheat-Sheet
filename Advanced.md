@@ -20,7 +20,7 @@ Now we introduce the concept of Wronskain, $W(f_1,f_2,...f_n)(x) = \left| \matri
 
 Since if $f_1$, $f_2$,..., $f_n$ are linearly dependent, then $W = \left| \matrix{v & i_1v & \cdots & i_{n-1}v} \right|$ Where $v = \left( \matrix{ f_1 \cr f_1' \cr \vdots \cr f_1^{(n-1)}} \right)$ 
 
-Using the [properties of the determinant](https://en.wikipedia.org/wiki/Determinant#Properties_of_the_determinant), we can get $W = i_1 \left| \matrix{i_1v & i_1v & \cdots & i_{n-1}v} \right| \implies W = i_1 \times 0 = 0$
+Using the [properties of the determinant](https://en.wikipedia.org/wiki/Determinant#Properties_of_the_determinant), we can get $W = \frac{1}{i_1} \left| \matrix{i_1v & i_1v & \cdots & i_{n-1}v} \right| \implies W = \frac{1}{i_1} \times 0 = 0$
 
 So, $f_1$, $f_2$,..., $f_n$ are linearly dependent $\Longleftrightarrow W = 0$ 
 
