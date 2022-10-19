@@ -16,9 +16,7 @@ First, We need to understand about **Linear Independence**
 
 Linear Independence means that 2 functions, $f(x)$ and $g(x)$ are **NOT** linearly related, that is you cannot find a value $k$ such that $f(x) = kg(x)$, so $\sin{x}$ and $4\sin{x}$ are linearly **Dependent**, while $\sin{x}$ and $\sin{4x}$ are linearly **Independent**
 
-Now we introduce the concept of Workstrain, $W(f_1,f_2,...f_n)(x) = \left\lbrack \matrix{f_1 & f_2 & \cdots & f_n \cr f_1' & f_2' & \cdots & f_n' \cr \vdots & \vdots & \ddots & \vdots \cr f_1^{(n-1)} & f_2^{(n-1)} & \cdots & f_n^{(n-1)}}\right\rbrack$, if $\det W$ is **generally** nonzero then $f_1$, $f_2$ ,..., $f_n$ are linearly independent
-
-Now, given the equation is in the form of $a\frac{d^2y}{dx^2} + b\frac{dy}{dx} + cy = f(x)$ (In the following we represent $a\frac{d^2y}{dx^2} + b\frac{dy}{dx} + cy$ as $D(y)$
+Now we introduce the concept of Wronskain, $W(f_1,f_2,...f_n)(x) = \left| \matrix{f_1 & f_2 & \cdots & f_n \cr f_1' & f_2' & \cdots & f_n' \cr \vdots & \vdots & \ddots & \vdots \cr f_1^{(n-1)} & f_2^{(n-1)} & \cdots & f_n^{(n-1)}}\right|$, if $\det W$ is **generally** nonzero then $f_1$, $f_2$ ,..., $f_n$ are linearly independent
 
 To solve this, we employ 2 facts:
 
