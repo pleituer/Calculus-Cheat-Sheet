@@ -10,7 +10,7 @@ Table of contents
 
 ## Advanced Differential Equations
 
-### 2.1 Second order Linear ODE with constant coefficients
+### 2.1 Second order Linear ODE with constant coefficients (not just 2 degrees, even more!)
 
 First, We need to understand about **Linear Independence**
 
@@ -50,3 +50,45 @@ $\lambda_1$ and $\lambda_2$ are the same
 Since $\lambda_1 = \lambda_2$, we can easily derive that they are $-\frac{b}{2}$we can use the method of reduction, just like in polynomials. If $y = y_1 = C_1e^{-\frac{bx}{2a}}$ is a solution to the equation $D(y) = 0$, then we can find the other solution like so:
 
 $\text{Let } u \text{ be the other solution, since } y_1 \text{ is a solution, then by the method of reduction, } y_2 = y_1u \to y_2' = y_1'u + y_1u' \to y_2'' = y_1''u + 2y_1'u' + y_1u''$ So, $(y_1''u + 2y_1'u' +y_1u'') + \frac{b}{a}(y_1'u + u'y_1) + \frac{c}{a}(y_1u)$ Meaning, $y_1u'' + u'(2y_1'+\frac{b}{a}y_1) + u(y_1''+\frac{b}{a}y_1'+\frac{c}{a}y_1)$ Thus, $u''= 0 \to u = C_2x \to y_2 = C_2xe^{-\frac{bx}{2a}} \to y = C_1e^{-\frac{bx}{2a}} + C_2xe^{-\frac{bx}{2a}}$ 
+
+However it is not done yet!
+
+We only found solutions to $D(y) = 0$, but we want to find $D(y) = f(x)$, to do that, we need to find the particular integral, and we will split it into different cases based of the deritative of $f(x)$
+
+Case 1:
+$f(x) = p(x)$ where $p(x)$ is a polynomial with degree $i$ (Fun fact: there will be multiple solutions if $i>n$ where n is the degree of the linear ode)
+
+We let $p_i(x) = \Sigma_ia_ix^i$, now solve for each $a_i$ ($p_i$ is the particular integral)
+
+$\text{}$
+
+Case 2:
+$f(x) = t(x)$ where $t(x)$ is a sum of $\sin{}$ and $\cos{}$
+
+We let $p_i(x) = \Sigma_i(a_i\cos{b_ix} + c_i\sin{b_ix})$ where $b_i$ is deduced through the equation ( $f(x) = \cos{3x} \to p_i(x) = A\cos{3x} + B\sin{3x}$ ). Now, solve for each $a_i$ and $c_i$
+
+**ALERT:** If $A\cos{bx} + B\sin{bx}$ is a solution ( $e^{ax}$ not included ), you will need $Ax\cos{bx} + Bx\sin{bx}$ (Think why?)
+
+$\text{}$
+
+Case 3:
+$f(x) = Ce^{ax}$
+
+We let $p_i(x) = Ae^{ax}$, where $a$ is deduced through the equation ( $f(x) = 2e^{3x}\to p_i(x) = Ae^{3x}$ ). Now, solve for $A$
+
+**ALERT:** If $Ae^{ax}$ is a solution, you will need $Axe^{ax}$, but if $Ae^{ax}$ is a repeated solution to the equation, you will need $Ax^2e^{ax}$ (Think why?)
+
+$\text{}$
+
+Case 4:
+$f(x) = h_t(x)$ where $h_t(x)$ is a sum of $\sinh{}$ and $\cosh{}$
+
+We let $p_i(x) = \Sigma_i(a_i\cosh{b_ix} + c_i\sinh{b_ix})$ where $b_i$ is deduced through the equation ( $f(x) = \cosh{3x} \to p_i(x) = A\cosh{3x} + B\sinh{3x}$ ). Now, solve for each $a_i$ and $c_i$
+
+**ALERT:** If $A\cosh{bx} + B\sinh{bx}$ is a solution ( Since $\cosh{x} = \frac{e^x+e^{-x}}{2}$ and $\sinh{x} = \frac{e^x-e^{-x}}{2}$ ), you will need $Ax\cosh{bx} + Bx\sinh{bx}$ (Think why?)
+
+$\text{}$
+
+To conclude, if you want to determine what $p_i$ you want given the $f$, in second order ode, you will need to consider about $f(x)$ , $f'(x)$ , $f''(x)$ , and for higher orders, you need to consider about $f(x)$ , $f'(x)$ , $f''(x)$ , $\cdots$ , $f^{(n)}$
+
+E.g.
