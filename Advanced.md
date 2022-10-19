@@ -30,7 +30,7 @@ Now, to solve the differential equation, we employ 2 facts:
 
 2. Given that $y_1$ and $y_2$ are solutions to $D(y) = 0$ and $D(y) = f(x)$ respectively, then $y = y_1 + y_2$ is also a solution to $D(y) = f(x)$. Since $D(y)$ is linear $\to D(y) = D(y_1 + y_2) = D(y_1) + D(y_2) = 0 + f(x) = f(x) \to D(y) = f(x)$
 
-Thus, we can let $u = Ce^{\lambda x}$ to be the solution to $D(y) = 0 \to (a\lambda^2 + b\lambda + c)u = 0$, where $C$ is a constant. Since $u$ cannot be $0$ at every point, we can divide $u$ on both sides and we get $a\lambda^2 + b\lambda + c = 0$. Solving $\lambda$ we can get two $\lambda$ s, $\lambda_1$ and $\lambda_2$, which we can seperate it into different cases
+Thus, we can let $u = Ce^{\lambda x}$ (Complementary function) to be the solution to $D(y) = 0 \to (a\lambda^2 + b\lambda + c)u = 0$, where $C$ is a constant. Since $u$ cannot be $0$ at every point, we can divide $u$ on both sides and we get $a\lambda^2 + b\lambda + c = 0$. Solving $\lambda$ we can get two $\lambda$ s, $\lambda_1$ and $\lambda_2$, which we can seperate it into different cases
 
 Case 1:
 $\lambda_1$ and $\lambda_2$ are real and different:
@@ -89,6 +89,10 @@ We let $p_i(x) = \Sigma_i(a_i\cosh{b_ix} + c_i\sinh{b_ix})$ where $b_i$ is deduc
 
 $\text{}$
 
-To conclude, if you want to determine what $p_i$ you want given the $f$, in second order ode, you will need to consider about $f(x)$ , $f'(x)$ , $f''(x)$ , and for higher orders, you need to consider about $f(x)$ , $f'(x)$ , $f''(x)$ , $\cdots$ , $f^{(n)}$
+To conclude, if you want to determine what $p_i$ you want given the $f$, in second order ode, you will need to consider about $f(x)$ , $f'(x)$ , $f''(x)$ , and for higher orders, you need to consider about $f(x)$ , $f'(x)$ , $f''(x)$ , $\cdots$ , $f^{(n)}$, and finally just add the Complementary function and Particular Integral together and you'll get the answer!
 
 E.g.
+
+$y'' + 2y' + y = \frac{1}{e^x} + tan{4x}$
+
+$\text{Let } y_c \text{ be the Complementary function, since the Charateristic equations is } m^2 + 2m + 1 \to m = -1$
