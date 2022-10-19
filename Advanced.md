@@ -16,7 +16,9 @@ First, We need to understand about **Linear Independence**
 
 Linear Independence means that 2 functions, $f(x)$ and $g(x)$ are **NOT** linearly related, that is you cannot find a value $k$ such that $f(x) = kg(x)$, so $\sin{x}$ and $4\sin{x}$ are linearly **Dependent**, while $\sin{x}$ and $\sin{4x}$ are linearly **Independent**
 
-Now we introduce the concept of Wronskain, $W(f_1,f_2,...f_n)(x) = \left| \matrix{f_1 & f_2 & \cdots & f_n \cr f_1' & f_2' & \cdots & f_n' \cr \vdots & \vdots & \ddots & \vdots \cr f_1^{(n-1)} & f_2^{(n-1)} & \cdots & f_n^{(n-1)}}\right|$, if $\det W$ is **generally** nonzero then $f_1$, $f_2$ ,..., $f_n$ are linearly independent
+Now we introduce the concept of Wronskain, $W(f_1,f_2,...f_n)(x) = \left| \matrix{f_1 & f_2 & \cdots & f_n \cr f_1' & f_2' & \cdots & f_n' \cr \vdots & \vdots & \ddots & \vdots \cr f_1^{(n-1)} & f_2^{(n-1)} & \cdots & f_n^{(n-1)}}\right|$, if $W$ is **generally** nonzero then $f_1$, $f_2$ ,..., $f_n$ are linearly independent
+
+Since if $f_1$, $f_2$,..., $f_n$ are linearly dependent, then $W = f \left| \matrix{i_1 & i_2 & \cdots &i_n \cr i_1\alpha & i_2\alpha & \cdots & i_n\alpha \cr \vdots & \vdots & \ddots & \vdots \cr i_1\alpha ^{n-1} & i_2\alpha ^{n-1} & \cdots & i_n\alpha ^{n-1}}\right|$ Where $f = \frac{f_1}{i_1} = \frac{f_2}{i_2} = \cdots = \frac{f_n}{i_n}$ for some number $i$ and $f' = \alpha f$ for some function $\alpha$
 
 To solve this, we employ 2 facts:
 
