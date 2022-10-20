@@ -229,6 +229,12 @@ $M = \cos{y} \text{  } (1)$
 
 $N = y^2 - x\sin{y} \text{  } (2)$
 
+$\text{Let } F \text{ be such that } \frac{\partial F}{\partial x}dx + \frac{\partial F}{\partial y}dy = 0$
+
+$\text{So, } \frac{\partial F}{\partial x} = M \text{, } \frac{\partial F}{\partial y} = N$
+
+$\implies \frac{\partial ^2 F}{\partial x\partial y} = \frac{\partial N}{\partial x} = \frac{\partial M}{\partial y}$
+
 $(1) \to \frac{\partial M}{\partial y} = -\sin{y}$
 
 $(2) \to \frac{\partial N}{\partial x} = -\sin{x} = \frac{\partial M}{\partial y}$
