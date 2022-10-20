@@ -89,10 +89,26 @@ We let $p_i(x) = \Sigma_i(a_i\cosh{b_ix} + c_i\sinh{b_ix})$ where $b_i$ is deduc
 
 $\text{}$
 
-To conclude, if you want to determine what $p_i$ you want given the $f$, in second order ode, you will need to consider about $f(x)$ , $f'(x)$ , $f''(x)$ , and for higher orders, you need to consider about $f(x)$ , $f'(x)$ , $f''(x)$ , $\cdots$ , $f^{(n)}$, and finally just add the Complementary function and Particular Integral together and you'll get the answer!
-
 E.g.
 
-$y'' + 2y' + y = \frac{1}{e^x} + tan{4x}$
+$y'' + 2y' + y = \frac{1}{e^x} + \sin{4x}$
 
-$\text{Let } y_c \text{ be the Complementary function, since the Charateristic equations is } m^2 + 2m + 1 \to m = -1$
+$\text{Let } y_c \text{ be the Complementary function, since the Charateristic equations is } m^2 + 2m + 1 \to m = -1 \to y_c = C_1e^{-x} + C_2xe^{-x}$
+
+$\text{Now, let the particular integral be } y_p = Ax^2e^{-x} + B\sin{4x} + C\cos{4x}$
+
+$\text{Substituting it into the orignial equation gives }$
+
+$(2Ae^{-x} - 4Axe^{-x} + Ax^2e^{-x} - 16B\sin{4x} - 16C\cos{4x}) + 2(2Axe^{-x} - Ax^2e^{-x} + 4B\cos{4x} - 4C\sin{4x}) + (Ax^2e^{-x} + B\sin{4x} + C\cos{4x}) = e^{-x} + \sin{4x}$
+
+$\text{Thus, } \left\lbrace \matrix{2A = 1 \text{  } (1) \cr -4A + 4A = 0 \text{  } (2) \cr A - 2A + A = 0 \text{  } (3) \cr -16B - 8C + B = 1 \text{  } (4) \cr -16C + 8B + C = 0 \text{  }(5)} \right.$
+
+$\left\lbrace \matrix{(1) \to A = \frac{1}{2} \cr (5) \to C = \frac{8}{15}B \text{  } (6)} \right.$
+
+$(6) \text{ sub into } (4) \to B = -\frac{15}{289} \to C = -\frac{8}{289}$
+
+$\text{Thus, } y_p = \frac{1}{2}x^2e^{-x} - \frac{15}{289}\sin{4x} - \frac{8}{289}\cos{4x}$
+
+$y = y_c + y_p$ = 
+|$C_1e^{-x} + C_2xe^{-x} + \frac{1}{2}x^2e^{-x} - \frac{15}{289}\sin{4x} - \frac{8}{289}\cos{4x}$|
+|-|
