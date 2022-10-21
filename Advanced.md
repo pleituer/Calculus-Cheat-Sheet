@@ -93,7 +93,7 @@ E.g.
 
 $y'' + 2y' + y = \frac{1}{e^x} + \sin{4x}$
 
-$\text{Let } y_c \text{ be the Complementary function, since the Charateristic equations is } m^2 + 2m + 1 \to m = -1 \to y_c = C_1e^{-x} + C_2xe^{-x}$
+$\text{Let } y_c \text{ be the Complementary function, since the Charateristic equations is } m^2 + 2m + 1 = 0 \to m = -1 \to y_c = C_1e^{-x} + C_2xe^{-x}$
 
 $\text{Now, let the particular integral be } y_p = Ax^2e^{-x} + B\sin{4x} + C\cos{4x}$
 
@@ -112,3 +112,24 @@ $\text{Thus, } y_p = \frac{1}{2}x^2e^{-x} - \frac{15}{289}\sin{4x} - \frac{8}{28
 $y = y_c + y_p$ = 
 |$C_1e^{-x} + C_2xe^{-x} + \frac{1}{2}x^2e^{-x} - \frac{15}{289}\sin{4x} - \frac{8}{289}\cos{4x}$|
 |-|
+
+$\text{}$
+
+E.g. (higher order)
+
+$\frac{d^5y}{dx^5} - 2\frac{d^3y}{dy^3} - 3\frac{d^2y}{dy^2} + 6y = \sin{4x} + \sinh{3x} + 3x^2 + 4$
+
+$\text{Let } y_c \text{ be the Complementary function, since the Charateristic equation is } m^5 - 2m^3 - 3m^2 +6 = 0 \to (m^3 - 3)(m^2 - 2) = 0 \to m = \sqrt[3]{3}, e^{\frac{2\pi}{3}i}, e^{\frac{4\pi}{3}i}, \sqrt{2}, -\sqrt{2}$
+
+$\text{Thus, } y_c = C_1e^{\sqrt{2}x} + C_2e^{-\sqrt{2}x} + C_3e^{\sqrt[3]{3}x} + e^{\sqrt{3}x}(C_4\cos{\frac{x}{2}} + C_5\sin{\frac{x}{2}})$
+
+$\text{Let the Particular Integral be } y_p = A\sin{4x} + B\cos{4x} + C\sinh{3x} + D\cosh{3x} + Ex^2 + Fx + G$
+
+$\text{Substituting it into the original equation yeilds }$ 
+$(1024A\cos{4x} - 1024B\sin{4x} + 243C\cosh{3x} + 243D\sinh{3x})$
+$- 2(-64A\cos{4x} + 64B\sin{4x} + 27C\cosh{3x} + 27D\sinh{3x})$
+$- 3(-16A\sin{4x} - 16B\cos{4x} + 9C\sinh{3x} + 9D\cosh{3x} + 2E)$
+$+ (A\sin{4x} + B\cos{4x} + C\sinh{3x} + D\cosh{3x} + Ex^2 + Fx + G)$
+$= \sin{4x} + \sinh{3x} + 3x^2 + 4$
+
+$\text{Thus, } \left\lbrace \matrix{1024A + 128A + 48B + B = 0 \text{  } (1) \cr -1024B - 128B + 48A + A = 1 \text{  } (2) \cr 243C - 54C - 27D + D = 0 \text{  } (3) \cr 243D - 54D - 27C + C = 1 \text{  } (4) \cr E= 3 \text{  } (5) \cr F = 0 \text{  } (6) \cr 2E + G = 4 \text{  } (7)} \right.$
