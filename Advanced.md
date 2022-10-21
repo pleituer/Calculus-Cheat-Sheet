@@ -131,3 +131,5 @@ Now put everything together: $\left\lbrace \matrix{A'u_1+B'u_2=0 \cr A'u_1'+B'u_
 
 Step 4:
 Thus, $\left\lbrack \matrix{A\cr B} \right\rbrack = \int \left\lbrack \matrix{u_1 & u_2 \cr u_1' & u_2'} \right\rbrack ^{-1} \left\lbrack \matrix{0\cr f} \right\rbrack  dx$
+
+Now, we can get $u_g$ and thus our final answer $y = u_g + C_1u_1 + C_2u_2$
