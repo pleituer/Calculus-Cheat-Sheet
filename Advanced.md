@@ -49,7 +49,7 @@ $\lambda_1$ and $\lambda_2$ are the same
 
 Since $\lambda_1 = \lambda_2$, we can easily derive that they are $-\frac{b}{2}$we can use the method of reduction, just like in polynomials. If $y = y_1 = C_1e^{-\frac{bx}{2a}}$ is a solution to the equation $D(y) = 0$, then we can find the other solution like so:
 
-$\text{Let } u \text{ be the other solution, since } y_1 \text{ is a solution, then by the method of reduction, } y_2 = y_1u \to y_2' = y_1'u + y_1u' \to y_2'' = y_1''u + 2y_1'u' + y_1u''$ So, $(y_1''u + 2y_1'u' +y_1u'') + \frac{b}{a}(y_1'u + u'y_1) + \frac{c}{a}(y_1u)$ Meaning, $y_1u'' + u'(2y_1'+\frac{b}{a}y_1) + u(y_1''+\frac{b}{a}y_1'+\frac{c}{a}y_1)$ Thus, $u''= 0 \to u = C_2x \to y_2 = C_2xe^{-\frac{bx}{2a}} \to y = C_1e^{-\frac{bx}{2a}} + C_2xe^{-\frac{bx}{2a}}$ 
+$\text{Let } u \text{ be the solution, since } y_1 \text{ is a solution, then by the method of reduction, } y = y_1u \to y' = y_1'u + y_1u' \to y'' = y_1''u + 2y_1'u' + y_1u''$ So, $(y_1''u + 2y_1'u' +y_1u'') + \frac{b}{a}(y_1'u + u'y_1) + \frac{c}{a}(y_1u)$ Meaning, $y_1u'' + u'(2y_1'+\frac{b}{a}y_1) + u(y_1''+\frac{b}{a}y_1'+\frac{c}{a}y_1)$ Thus, $u''= 0 \to u = C_2x + C_1 \to  y = C_1e^{-\frac{bx}{2a}} + C_2xe^{-\frac{bx}{2a}}$ 
 
 However it is not done yet!
 
