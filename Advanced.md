@@ -133,3 +133,19 @@ Step 4:
 Thus, $\left\lbrack \matrix{A\cr B} \right\rbrack = \int \left\lbrack \matrix{u_1 & u_2 \cr u_1' & u_2'} \right\rbrack ^{-1} \left\lbrack \matrix{0\cr f} \right\rbrack  dx$
 
 Now, we can get $u_g$ and thus our final answer $y = u_g + C_1u_1 + C_2u_2$
+
+
+### Inhomogenous Equations
+
+Consider the equation in the form $y'' + a_1y' + a_2y = f(x)$
+
+Again, we solve for $y'' + a_1y' + a_2y = 0$ first
+
+Type 1:
+Consider about $y'' + k^2y = 0$
+
+Then if we have two solutions $y_1$ and $y_2$, which $y_1'' + k^2y_1 = y_2'' + k^2y_2 = f(x) \to (y_2 - y_1)'' + k^2(y_2 - y_1) = 0$ Let $Y = y_2 - y_1 \to y_2 = y_1 + Y$, $Y$ is the homogeneous solution of the equation (the Complementary function), $y_1$ is the Particular Integral
+
+To find a solution to $y'' + k^2y = f(x)$:
+
+Method 1: D operator method $\to g(D) = f(x) \to$ let $\alpha$ be a function such that $\alpha (f) = 0$, apply to both side, we get $\alpha (g(D)) = 0$, now solve for y
