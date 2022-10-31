@@ -161,3 +161,31 @@ Let solution $y = x^m$, plugging in gives $x^m(\Sigma_ia_im^i) = 0$, now since $
 Method 2: Changing variables
 
 Let $t = \ln{x} \to dx = \frac{dt}{t}$, now it is obvious that when we plug it in, we get $\Sigma_ia_i\frac{d^iu}{dt^i} = 0$, which is a ODE with constant coefficients, just solve it as usual.
+
+### Riccati's Equation
+
+It is similar to the Bernoulli's equation, but in the form of $y' = q_o + q_1y + q_2y^2$, there are generally 2 ways to solve it
+
+Method 1: Change it to a second order linear equation
+
+Let $v = yq_2 \to v' = v^2 + (q_1 + \frac{q_2'}{q_2})v + q_2q_0$, let $R = q_1 + \frac{q_2'}{q_2}$ and $S = q_2q_0$ and let $v = -\frac{u'}{u}$ yields $u'' - Ru' + Su = 0$ And hence transforming it to a second order linear equation, which can be (somewhat) easier to solve
+
+Method 2: Transform it to a Bernoulli's equation (given that you found a Particular Soution)
+
+Let $y = y_1 + u$ gives us $y_1' + u' = q_0 + q_1(y_1 + u) + q_2(y_1 + u)^2$ where $y_1$ is a particular solution to the original equation. Since $y_1' = q_0 + q_1y_1 + q_2y_1^2 \to u' - (q_1 + 2q_2y_1)u = q_2u^2$ Which is basically a Bernoulli's Equation. Solving it can give us a general solution
+
+### Power Series Method (useful for IVPs)
+
+This method is quite general and applies to most of the Differential Equations
+
+**However this method just yeilds an APPROXIMATION to the Equation NOT AN EXACT ANALITIC SOLUTION**
+
+Consider the equation $\Sigma_ia_iy^i = 0$ ($a_i$ is a function of x) We can let $y = \Sigma_kA_kx^k$, Now just plug it in and get an formula (can be based off recursion) for $A_k$ (**A Constant**) and we found the solution!
+
+Now this is we can apply the same thing to $\Sigma_ia_iy^i = f(x)$, we can rewrite $f(x)$ in terms of its taylor series and do the same thing
+
+**BUT** if the first coefficient is 0 for some $x$, then we can use the Frobenius method:
+
+Lets say it is in the form $x^2u'' + p(x)xu' + q(x)u = 0$ dividing both sides and letting $u = x^2\Sigma_kA_kx^k$ and applying the same method (up) can give us the answer
+
+(P.S. the power series method is usally implemented using the Taylor Series)
