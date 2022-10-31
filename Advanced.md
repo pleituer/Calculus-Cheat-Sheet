@@ -180,7 +180,7 @@ This method is quite general and applies to most of the Differential Equations
 
 **However this method just yeilds an APPROXIMATION to the Equation NOT AN EXACT ANALITIC SOLUTION**
 
-Consider the equation $\Sigma_ia_iy^i = 0$ ($a_i$ is a function of x) We can let $y = \Sigma_kA_kx^k$, Now just plug it in and get an formula (can be based off recursion) for $A_k$ (**A Constant**) and we found the solution!
+Consider the equation $\Sigma_ia_iy^i = 0$ ( $a_i$ is a function of x) We can let $y = \Sigma_kA_kx^k$, Now just plug it in and get an formula (can be based off recursion) for $A_k$ (**A Constant**) and we found the solution!
 
 Now this is we can apply the same thing to $\Sigma_ia_iy^i = f(x)$, we can rewrite $f(x)$ in terms of its taylor series and do the same thing
 
