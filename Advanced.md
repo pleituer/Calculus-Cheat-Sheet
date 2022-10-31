@@ -148,4 +148,6 @@ Then if we have two solutions $y_1$ and $y_2$, which $y_1'' + k^2y_1 = y_2'' + k
 
 To find a solution to $y'' + k^2y = f(x)$:
 
-Method 1: D operator method $\to g(D) = f(x) \to$ let $\alpha$ be a function such that $\alpha (f) = 0$, apply to both side, we get $\alpha (g(D)) = 0$, now solve for y
+Method : D operator method $\to g(D) = f(x) \to$ let $\alpha$ be a function such that $\alpha (f) = 0$, apply to both side, we get $\alpha (g(D)) = 0$, now solve for y
+
+
