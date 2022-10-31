@@ -8,3 +8,4 @@ Table of Contents
 ## 1. Table
 | $f(t)$ | $\mathscr{L}\lbrace f \rbrace = F(s)$ | $\mathscr{L}^{-1}  \lbrace f \rbrace$ |
 |-|-|-|
+|$1$|$\frac{1}{s}$|$u(t)$|
