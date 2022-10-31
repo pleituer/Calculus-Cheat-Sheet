@@ -150,4 +150,14 @@ To find a solution to $y'' + k^2y = f(x)$:
 
 Method : D operator method $\to g(D) = f(x) \to$ let $\alpha$ be a function such that $\alpha (f) = 0$, apply to both side, we get $\alpha (g(D)) = 0$, now solve for y
 
+### Cauchy Euler's Equation
 
+It is in the form $\Sigma_ia_ix^iu^{(i)} = 0$
+
+Method 1: Trial solution $x^m$
+
+Let solution $y = x^m$, plugging in gives $x^m(\Sigma_ia_im^i) = 0$, now since $x^m$ can't be 0 everywhere, we get $\Sigma_ia_im^i = 0$, solve for $m$
+
+Method 2: Changing variables
+
+Let $t = \ln{x} \to dx = \frac{dt}{t}$, now it is obvious that when we plug it in, we get $\Sigma_ia_i\frac{d^iu}{dt^i} = 0$, which is a ODE with constant coefficients, just solve it as usual.
