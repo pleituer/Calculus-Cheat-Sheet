@@ -2,10 +2,16 @@
 
 Table of Contents
 
-1. Tables
+1. Definition
+
+2. Tables
 
 
-## 1. Table
+## 1. Definition
+
+$\mathscr{L}\lbrace f \rbrace = \int$
+
+## 2. Table
 |$f(t)$|$\mathscr{L}\lbrace f \rbrace = F(s)$|$\mathscr{L}^{-1}  \lbrace f \rbrace$|
 |-|-|-|
 |$1$|$\frac{1}{s}$|$u(t)$|
