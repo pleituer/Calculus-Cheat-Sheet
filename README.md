@@ -28,7 +28,13 @@ For more advanced things, check out [this link](https://github.com/pleituer/Calc
 
 ## 1. Limits
 
-### 1.1.1 Limit of Function
+The epsilon-delta definition of Limits is as follows:
+
+One will only say that $\lim_{x \to a} {f(x)} = b$ if **For ALL** $\epsilon > 0$ there exists $\delta > 0$ such that $0 < |x - a| < \epsilon$ implies $0 < |y - b| < \delta$
+
+Also note that $\lim_{x \to a} {f(x)}$ exists if and only if $\lim_{x \to a^-} {f(x)}$ and $\lim_{x \to a^+} {f(x)}$ both exist and are the same.
+
+This also means that in order for $\lim_{x \to a} {f(x)}$ to exist, $f(a)$ doesn't needs to be defined, like for the function $f(x) = x \text{ for } x \neq 0$, $\lim_{x \to 0} {f(x)}$ exists, as $\lim_{x \to 0^-} {f(x)} = \lim_{x \to 0^+} {f(x)} = 0$, thus $\lim_{x \to 0} {f(x)} = 0$
 
 ### 1.1.2 Limit Laws
 
